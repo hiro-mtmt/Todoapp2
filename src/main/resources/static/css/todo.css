@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body {
+	text-align: center;
+/* 	background-image: url="@{${'/img/haikei.png'}}"; 	 */
+}
+
+hr {
+	border-width: 1px;
+	border-color: #0000ff;
+	width: 10cm;
+}
+
+table, tr {
+  border: 7px solid #808080;
+  width: 300px;
+  font-size: 17px;
+  padding: 0 90px;
+}
+
+tr.taskHeader {
+	font-weight: bold;
+	color: #df0000;
+	text-decoration: underline;
+}
+
+table {
+	width: 700px;
+	margin: 30px auto;
+}
+
+h2 {
+	font-size: 20px;
+	color: #0080ff;
+	margin-top: 50px;
+	text-decoration: underline;
+}
+
+p{
+	color: red;
+}
+
+input {
+	height: 25px;
+}
+
+input[type="text"] {
+	width: 250px;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.4);
+	vertical-align: middle;
+}
+
+form {
+	margin-bottom: 1px;
+}
+
+form.dltbtn {
+	margin-bottom: 5px;
+}
+
+input.finished {
+	text-decoration: line-through;
+}
